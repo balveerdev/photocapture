@@ -1,0 +1,321 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Bold.woff2") format("woff2"), url("../fonts/Poppins-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-ExtraLight.woff2") format("woff2"), url("../fonts/Poppins-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Medium.woff2") format("woff2"), url("../fonts/Poppins-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-ExtraBold.woff2") format("woff2"), url("../fonts/Poppins-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Light.woff2") format("woff2"), url("../fonts/Poppins-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-SemiBold.woff2") format("woff2"), url("../fonts/Poppins-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Regular.woff2") format("woff2"), url("../fonts/Poppins-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --blue-color: #0000ff;
+  --indigo-color: #6610f2;
+  --purple-color: #6f42c1;
+  --pink-color: #d63384;
+  --red-color: #ff4148;
+  --orange-color: #fd7e14;
+  --yellow-color: #ffc107;
+  --green-color: #27ae60;
+  --teal-color: #20c997;
+  --cyan-color: #21e8df;
+  --black-color: #000000;
+  --white-color: #ffffff;
+  --gray-color: #979797;
+  --gray-dark-color: #343a40;
+  --gray-100-color: #f8f9fa;
+  --gray-200-color: #e9ecef;
+  --gray-300-color: #dee2e6;
+  --gray-400-color: #ced4da;
+  --gray-500-color: #adb5bd;
+  --gray-600-color: #6c757d;
+  --gray-700-color: #495057;
+  --gray-800-color: #343a40;
+  --gray-900-color: #212529;
+  --primary-color: #12256d;
+  --secondary-color: #f8e80e;
+  --success-color: #27ae60;
+  --info-color: #0dcaf0;
+  --warning-color: #ffc107;
+  --danger: -color var(--red);
+  --light-color: #f8f9fa;
+  --dark-color: #212529;
+  --gradient-color: linear-gradient(to right, #4851a8, #582a9b);
+  --body-font-family: "Poppins";
+  --body-font-size: 14px;
+  --body-font-weight: 400;
+  --body-line-height: 22px;
+  --body-color: #ffffff;
+  --body-bg: #04041e;
+  --font-weight-thin: 100;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700;
+  --font-weight-black: 900;
+  --font-style-italic: italic;
+  --border-width: 1px;
+  --border-style: solid;
+  --border-color: #acacac;
+  --border-radius: 3px;
+  --link-color: #000000;
+  --link-hover-color: var(--secondary-color);
+}
+
+body {
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+   line-height: var(--body-line-height); 
+  color: #666666;
+  overflow-x: hidden;
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+  min-height: 100%;
+  background-color: #0e191e;
+}
+
+.sticky-footer {
+  overflow-x: hidden;
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 60px;
+  background-color: var(--body-bg);
+}
+
+.container {
+  width: 1200px; 
+  padding: 0px 0px;
+}
+
+html {
+  height: 100%;
+}
+
+ul,
+li,
+span,
+img,
+p,
+figure,
+img,
+ol,
+strong,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+a {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* .container{
+  width: 100%;
+  height: 100%  ;
+  
+} */
+
+*::-webkit-scrollbar {
+  /* width: 5px; */
+  /* height: 8px; */
+  display:none;
+}
+/* 
+::-webkit-scrollbar-track {
+  background-color: #115b9718;
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #115b9718;
+  border-radius: 9px;
+  width: 5px;
+} */
+
+
+
+
+
+
+
+
+
+/* ///////////////////////////////////////////////////////// */
+/* body {
+  background: #4a9fb5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.clock{
+  width: 300px;
+  height: 300px;
+  background-color: rgba(255, 255, 255, .8);
+  border-radius: 50%;
+  border: 2px solid black;
+  position: relative;
+}
+
+.clock .number{
+  --rotation: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transform: rotate(var(--rotation));
+}
+
+.clock .number1 {--rotation: 30deg;}
+.clock .number2 {--rotation: 60deg;}
+.clock .number3 {--rotation: 90deg;}
+.clock .number4 {--rotation: 120deg;}
+.clock .number5 {--rotation: 150deg;}
+.clock .number6 {--rotation: 180deg;}
+.clock .number7 {--rotation: 210deg;}
+.clock .number8 {--rotation: 240deg;}
+.clock .number9 {--rotation: 270deg;}
+.clock .number10 {--rotation: 300deg;}
+.clock .number11 {--rotation: 330deg;}
+ 
+
+.clock .hand {
+  --rotation: 0;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  background-color: black;
+  border: 1px solid white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  transform-origin: bottom;
+  z-index: 10;
+  transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
+
+}
+
+.clock .hand.second{
+  width: 3px;
+  height: 45%;
+  background-color: red;
+}
+.clock .hand.minute{
+  width: 7px;
+  height: 40%;
+  background-color: black;
+}
+.clock .hand.hour{
+  width: 10px;
+  height: 35%;
+  background-color: black;
+}
+
+.clock::after{
+  content: "";
+  position: absolute;
+  background-color: black;
+  z-index: 11;
+  width: 15px;
+  height: 15px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+} */
+
+body{
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+video, canvas{
+  border: 2px solid #00b9f5;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+button{
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #00b9f5;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+button:hover{
+  background-color: #0093c4;
+}
